@@ -422,13 +422,14 @@ img {
 
 .about__description {
   text-align: center;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-2);
+  font-size: var(--normal-font-size);
 }
 
 .about__info {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-2);
 }
 
 .about__info-title {
@@ -451,116 +452,6 @@ img {
   display: flex;
   justify-content: center;
 }
-
-/*==================== SKILLS ====================*/
-/* .skills__container {
-  row-gap: 0;
-}
-
-.skills__header {
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--mb-2-5);
-  cursor: pointer;
-}
-
-.skills__icon,
-.skills__arrow {
-  font-size: 2rem;
-  color: var(--first-color);
-}
-
-.skills__icon {
-  margin-right: var(--mb-0-75);
-}
-
-.skills__title {
-  font-size: var(--h3-font-size);
-}
-
-.skills__subtitle {
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
-}
-
-.skills__arrow {
-  margin-left: auto;
-  transition: 0.4s;
-}
-
-.skills__titles {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: var(--mb-0-5);
-}
-
-.skills__name {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-}
-
-.skills__bar,
-.skills__percentage {
-  height: 5px;
-  border-radius: 0.25rem;
-}
-
-.skills__bar {
-  background-color: var(--first-color-lighter);
-}
-
-.skills__percentage {
-  display: block;
-  background-color: var(--first-color);
-}
-
-.skills__html {
-  width: 90%;
-}
-.skills__css {
-  width: 80%;
-}
-.skills__js {
-  width: 60%;
-}
-.skills__react {
-  width: 85%;
-}
-.skills__node {
-  width: 90%;
-}
-.skills__firebase {
-  width: 80%;
-}
-.skills__mongo {
-  width: 60%;
-}
-.skills__python {
-  width: 85%;
-}
-.skills__figma {
-  width: 90%;
-}
-.skills__sketch {
-  width: 80%;
-}
-.skills__photoshop {
-  width: 60%;
-}
-
-.skills__close .skills__list {
-  height: 0;
-  overflow: hidden;
-}
-
-.skills__open .skills__list {
-  height: max-content;
-  margin-bottom: var(--mb-2-5);
-}
-
-.skills__open .skills__arrow {
-  transform: rotate(-180deg);
-} */
 
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
@@ -1155,7 +1046,7 @@ img {
     column-gap: 3rem;
   }
   .about__img {
-    width: 350px;
+    width: 400px;
   }
   .about__description {
     text-align: initial;
@@ -1380,6 +1271,7 @@ img {
 
 .portfolio__item-image img {
   border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .portfolio__links {
