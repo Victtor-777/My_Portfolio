@@ -861,7 +861,7 @@ img {
 /*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
-  right: 1rem;
+  right: 10%;
   bottom: -20%;
   background-color: var(--first-color);
   opacity: 0.8;
